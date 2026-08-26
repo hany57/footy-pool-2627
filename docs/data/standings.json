@@ -1,0 +1,409 @@
+{
+  "generated_at": "2026-08-26T15:41:10.333723+00:00",
+  "teams": [
+    {
+      "team": "Brighton and Hove Albion",
+      "group": "C",
+      "division": "EPL",
+      "points": 3,
+      "match_method": "seed"
+    },
+    {
+      "team": "Arsenal",
+      "group": "A",
+      "division": "EPL",
+      "points": 3,
+      "match_method": "seed"
+    },
+    {
+      "team": "Brentford",
+      "group": "C",
+      "division": "EPL",
+      "points": 3,
+      "match_method": "seed"
+    },
+    {
+      "team": "Everton",
+      "group": "D",
+      "division": "EPL",
+      "points": 3,
+      "match_method": "seed"
+    },
+    {
+      "team": "Hull City",
+      "group": "E",
+      "division": "EPL",
+      "points": 3,
+      "match_method": "seed"
+    },
+    {
+      "team": "Chelsea",
+      "group": "B",
+      "division": "EPL",
+      "points": 3,
+      "match_method": "seed"
+    },
+    {
+      "team": "Ipswich Town",
+      "group": "E",
+      "division": "EPL",
+      "points": 3,
+      "match_method": "seed"
+    },
+    {
+      "team": "Manchester City",
+      "group": "A",
+      "division": "EPL",
+      "points": 3,
+      "match_method": "seed"
+    },
+    {
+      "team": "Leeds United",
+      "group": "D",
+      "division": "EPL",
+      "points": 3,
+      "match_method": "seed"
+    },
+    {
+      "team": "Liverpool",
+      "group": "A",
+      "division": "EPL",
+      "points": 1,
+      "match_method": "seed"
+    },
+    {
+      "team": "Newcastle United",
+      "group": "B",
+      "division": "EPL",
+      "points": 1,
+      "match_method": "seed"
+    },
+    {
+      "team": "Fulham",
+      "group": "D",
+      "division": "EPL",
+      "points": 0,
+      "match_method": "seed"
+    },
+    {
+      "team": "Bournemouth",
+      "group": "C",
+      "division": "EPL",
+      "points": 0,
+      "match_method": "seed"
+    },
+    {
+      "team": "Sunderland",
+      "group": "C",
+      "division": "EPL",
+      "points": 0,
+      "match_method": "seed"
+    },
+    {
+      "team": "Nottingham Forest",
+      "group": "E",
+      "division": "EPL",
+      "points": 0,
+      "match_method": "seed"
+    },
+    {
+      "team": "Crystal Palace",
+      "group": "D",
+      "division": "EPL",
+      "points": 0,
+      "match_method": "seed"
+    },
+    {
+      "team": "Manchester United",
+      "group": "A",
+      "division": "EPL",
+      "points": 0,
+      "match_method": "seed"
+    },
+    {
+      "team": "Coventry City",
+      "group": "E",
+      "division": "EPL",
+      "points": 0,
+      "match_method": "seed"
+    },
+    {
+      "team": "Tottenham Hotspur",
+      "group": "B",
+      "division": "EPL",
+      "points": 0,
+      "match_method": "seed"
+    },
+    {
+      "team": "Aston Villa",
+      "group": "B",
+      "division": "EPL",
+      "points": 0,
+      "match_method": "seed"
+    },
+    {
+      "team": "Wrexham",
+      "group": "F",
+      "division": "EFL",
+      "points": 2,
+      "match_method": "seed"
+    },
+    {
+      "team": "Birmingham City",
+      "group": "F",
+      "division": "EFL",
+      "points": 2,
+      "match_method": "seed"
+    },
+    {
+      "team": "Derby County",
+      "group": "F",
+      "division": "EFL",
+      "points": 1,
+      "match_method": "seed"
+    },
+    {
+      "team": "Norwich City",
+      "group": "F",
+      "division": "EFL",
+      "points": 0,
+      "match_method": "seed"
+    },
+    {
+      "team": "St Mirren",
+      "group": "G",
+      "division": "SPL",
+      "points": 6,
+      "match_method": "seed"
+    },
+    {
+      "team": "St Johnstone",
+      "group": "G",
+      "division": "SPL",
+      "points": 3,
+      "match_method": "seed"
+    },
+    {
+      "team": "Falkirk",
+      "group": "G",
+      "division": "SPL",
+      "points": 1,
+      "match_method": "seed"
+    },
+    {
+      "team": "Kilmarnock",
+      "group": "G",
+      "division": "SPL",
+      "points": 0,
+      "match_method": "seed"
+    }
+  ],
+  "pools": [
+    {
+      "pool": "Mind the Gap",
+      "entrant": "Hany Michael",
+      "points": 20,
+      "standing": 1
+    },
+    {
+      "pool": "Scottish Scrammelers",
+      "entrant": "Pat Smith",
+      "points": 20,
+      "standing": 1
+    },
+    {
+      "pool": "Quantum of Tzolis",
+      "entrant": "Thomas Swan",
+      "points": 18,
+      "standing": 3
+    },
+    {
+      "pool": "Not Too Xabi",
+      "entrant": "Blair Bowen",
+      "points": 17,
+      "standing": 4
+    },
+    {
+      "pool": "Szoboslayer",
+      "entrant": "Shady Sedrak",
+      "points": 17,
+      "standing": 4
+    },
+    {
+      "pool": "Footygal",
+      "entrant": "Lisa Lossner",
+      "points": 17,
+      "standing": 4
+    },
+    {
+      "pool": "Leighton Bollocks",
+      "entrant": "Chris Griffin",
+      "points": 17,
+      "standing": 4
+    },
+    {
+      "pool": "The Ides of Infantino",
+      "entrant": "Chris Julia",
+      "points": 17,
+      "standing": 4
+    },
+    {
+      "pool": "Red Card",
+      "entrant": "Sandra T-J",
+      "points": 17,
+      "standing": 4
+    },
+    {
+      "pool": "TAD",
+      "entrant": "Trevor and Anthony",
+      "points": 15,
+      "standing": 10
+    },
+    {
+      "pool": "HP Sauce",
+      "entrant": "Heather Paterson",
+      "points": 14,
+      "standing": 11
+    },
+    {
+      "pool": "Never Walk Alone",
+      "entrant": "John Kattan",
+      "points": 14,
+      "standing": 11
+    },
+    {
+      "pool": "seskoffender",
+      "entrant": "Matthew Michael",
+      "points": 14,
+      "standing": 11
+    },
+    {
+      "pool": "Spreadsheet Wanderers",
+      "entrant": "Ivor Gottschalk",
+      "points": 14,
+      "standing": 11
+    },
+    {
+      "pool": "Tigers Forever",
+      "entrant": "Simon Curtis",
+      "points": 12,
+      "standing": 15
+    },
+    {
+      "pool": "Muppet March",
+      "entrant": "Evan Holt",
+      "points": 12,
+      "standing": 15
+    },
+    {
+      "pool": "CPFC Fan",
+      "entrant": "Paul Bradley",
+      "points": 12,
+      "standing": 15
+    },
+    {
+      "pool": "Real TerraNova",
+      "entrant": "Tom Harrington",
+      "points": 12,
+      "standing": 15
+    },
+    {
+      "pool": "Lads, it\u2019s Tottenham",
+      "entrant": "Paul Smith",
+      "points": 12,
+      "standing": 15
+    },
+    {
+      "pool": "COYS",
+      "entrant": "Kent Magnuson",
+      "points": 12,
+      "standing": 15
+    },
+    {
+      "pool": "Republik of Mancunia",
+      "entrant": "Sean Lawlor",
+      "points": 11,
+      "standing": 21
+    },
+    {
+      "pool": "Ever Hopeful",
+      "entrant": "Mike Stewart",
+      "points": 11,
+      "standing": 21
+    },
+    {
+      "pool": "Redhell",
+      "entrant": "Helder Travassos",
+      "points": 11,
+      "standing": 21
+    },
+    {
+      "pool": "Salmonbellies",
+      "entrant": "Niels Bols",
+      "points": 11,
+      "standing": 21
+    },
+    {
+      "pool": "The Palace Patriots",
+      "entrant": "Robert Pensa",
+      "points": 11,
+      "standing": 21
+    },
+    {
+      "pool": "Springfield Isotopes",
+      "entrant": "Kate Parker",
+      "points": 10,
+      "standing": 26
+    },
+    {
+      "pool": "Cityzens United",
+      "entrant": "Beverly Bowen",
+      "points": 9,
+      "standing": 27
+    },
+    {
+      "pool": "The Greek CR7",
+      "entrant": "Dina Grilo",
+      "points": 8,
+      "standing": 28
+    },
+    {
+      "pool": "Wanker 22",
+      "entrant": "David Gillespie",
+      "points": 8,
+      "standing": 28
+    },
+    {
+      "pool": "Barry Kane",
+      "entrant": "James Colapinto",
+      "points": 7,
+      "standing": 30
+    },
+    {
+      "pool": "RilOunited",
+      "entrant": "Riley Grilo",
+      "points": 6,
+      "standing": 31
+    },
+    {
+      "pool": "Daverpool",
+      "entrant": "David Lilley",
+      "points": 6,
+      "standing": 31
+    },
+    {
+      "pool": "EHoeves",
+      "entrant": "Evan Hoevenaars",
+      "points": 6,
+      "standing": 31
+    },
+    {
+      "pool": "Horacio",
+      "entrant": "Sian Evans",
+      "points": 4,
+      "standing": 34
+    }
+  ],
+  "unmatched_teams": [],
+  "note": "Seed snapshot from the manual audit (Aug 26 2026) \u2014 will be replaced by the first live GitHub Actions refresh."
+}

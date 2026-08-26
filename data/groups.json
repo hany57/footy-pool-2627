@@ -1,0 +1,170 @@
+[
+  {
+    "team": "Brighton and Hove Albion",
+    "abbrev": "BHA",
+    "group": "C",
+    "division": "EPL"
+  },
+  {
+    "team": "Arsenal",
+    "abbrev": "ARS",
+    "group": "A",
+    "division": "EPL"
+  },
+  {
+    "team": "Brentford",
+    "abbrev": "BRE",
+    "group": "C",
+    "division": "EPL"
+  },
+  {
+    "team": "Everton",
+    "abbrev": "EVE",
+    "group": "D",
+    "division": "EPL"
+  },
+  {
+    "team": "Hull City",
+    "abbrev": "HUL",
+    "group": "E",
+    "division": "EPL"
+  },
+  {
+    "team": "Chelsea",
+    "abbrev": "CHE",
+    "group": "B",
+    "division": "EPL"
+  },
+  {
+    "team": "Ipswich Town",
+    "abbrev": "IPS",
+    "group": "E",
+    "division": "EPL"
+  },
+  {
+    "team": "Manchester City",
+    "abbrev": "MCI",
+    "group": "A",
+    "division": "EPL"
+  },
+  {
+    "team": "Leeds United",
+    "abbrev": "LEE",
+    "group": "D",
+    "division": "EPL"
+  },
+  {
+    "team": "Liverpool",
+    "abbrev": "LIV",
+    "group": "A",
+    "division": "EPL"
+  },
+  {
+    "team": "Newcastle United",
+    "abbrev": "NEW",
+    "group": "B",
+    "division": "EPL"
+  },
+  {
+    "team": "Fulham",
+    "abbrev": "FUL",
+    "group": "D",
+    "division": "EPL"
+  },
+  {
+    "team": "Bournemouth",
+    "abbrev": "BOU",
+    "group": "C",
+    "division": "EPL"
+  },
+  {
+    "team": "Sunderland",
+    "abbrev": "SUN",
+    "group": "C",
+    "division": "EPL"
+  },
+  {
+    "team": "Nottingham Forest",
+    "abbrev": "NFO",
+    "group": "E",
+    "division": "EPL"
+  },
+  {
+    "team": "Crystal Palace",
+    "abbrev": "CRY",
+    "group": "D",
+    "division": "EPL"
+  },
+  {
+    "team": "Manchester United",
+    "abbrev": "MUN",
+    "group": "A",
+    "division": "EPL"
+  },
+  {
+    "team": "Coventry City",
+    "abbrev": "COV",
+    "group": "E",
+    "division": "EPL"
+  },
+  {
+    "team": "Tottenham Hotspur",
+    "abbrev": "TOT",
+    "group": "B",
+    "division": "EPL"
+  },
+  {
+    "team": "Aston Villa",
+    "abbrev": "AVL",
+    "group": "B",
+    "division": "EPL"
+  },
+  {
+    "team": "Wrexham",
+    "abbrev": "WRE",
+    "group": "F",
+    "division": "EFL"
+  },
+  {
+    "team": "Birmingham City",
+    "abbrev": "BIR",
+    "group": "F",
+    "division": "EFL"
+  },
+  {
+    "team": "Derby County",
+    "abbrev": "DER",
+    "group": "F",
+    "division": "EFL"
+  },
+  {
+    "team": "Norwich City",
+    "abbrev": "NOR",
+    "group": "F",
+    "division": "EFL"
+  },
+  {
+    "team": "St Mirren",
+    "abbrev": "STM",
+    "group": "G",
+    "division": "SPL"
+  },
+  {
+    "team": "St Johnstone",
+    "abbrev": "STJ",
+    "group": "G",
+    "division": "SPL"
+  },
+  {
+    "team": "Falkirk",
+    "abbrev": "FAL",
+    "group": "G",
+    "division": "SPL"
+  },
+  {
+    "team": "Kilmarnock",
+    "abbrev": "KIL",
+    "group": "G",
+    "division": "SPL"
+  }
+]
