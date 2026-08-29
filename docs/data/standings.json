@@ -1,201 +1,201 @@
 {
-  "generated_at": "2026-08-26T15:41:10.333723+00:00",
+  "generated_at": "2026-08-29T01:52:14.537371+00:00",
   "teams": [
     {
       "team": "Brighton and Hove Albion",
       "group": "C",
       "division": "EPL",
       "points": 3,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Arsenal",
       "group": "A",
       "division": "EPL",
       "points": 3,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Brentford",
       "group": "C",
       "division": "EPL",
       "points": 3,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Everton",
       "group": "D",
       "division": "EPL",
       "points": 3,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Hull City",
       "group": "E",
       "division": "EPL",
       "points": 3,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Chelsea",
       "group": "B",
       "division": "EPL",
       "points": 3,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Ipswich Town",
       "group": "E",
       "division": "EPL",
       "points": 3,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Manchester City",
       "group": "A",
       "division": "EPL",
       "points": 3,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Leeds United",
       "group": "D",
       "division": "EPL",
       "points": 3,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Liverpool",
       "group": "A",
       "division": "EPL",
       "points": 1,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Newcastle United",
       "group": "B",
       "division": "EPL",
       "points": 1,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Fulham",
       "group": "D",
       "division": "EPL",
       "points": 0,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Bournemouth",
       "group": "C",
       "division": "EPL",
       "points": 0,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Sunderland",
       "group": "C",
       "division": "EPL",
       "points": 0,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Nottingham Forest",
       "group": "E",
       "division": "EPL",
       "points": 0,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Crystal Palace",
       "group": "D",
       "division": "EPL",
       "points": 0,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Manchester United",
       "group": "A",
       "division": "EPL",
       "points": 0,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Coventry City",
       "group": "E",
       "division": "EPL",
       "points": 0,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Tottenham Hotspur",
       "group": "B",
       "division": "EPL",
       "points": 0,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Aston Villa",
       "group": "B",
       "division": "EPL",
       "points": 0,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Wrexham",
       "group": "F",
       "division": "EFL",
       "points": 2,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Birmingham City",
       "group": "F",
       "division": "EFL",
       "points": 2,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Derby County",
       "group": "F",
       "division": "EFL",
       "points": 1,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Norwich City",
       "group": "F",
       "division": "EFL",
       "points": 0,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "St Mirren",
       "group": "G",
       "division": "SPL",
       "points": 6,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "St Johnstone",
       "group": "G",
       "division": "SPL",
       "points": 3,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Falkirk",
       "group": "G",
       "division": "SPL",
       "points": 1,
-      "match_method": "seed"
+      "match_method": "unmatched"
     },
     {
       "team": "Kilmarnock",
       "group": "G",
       "division": "SPL",
       "points": 0,
-      "match_method": "seed"
+      "match_method": "unmatched"
     }
   ],
   "pools": [
@@ -404,6 +404,34 @@
       "standing": 34
     }
   ],
-  "unmatched_teams": [],
-  "note": "Seed snapshot from the manual audit (Aug 26 2026) \u2014 will be replaced by the first live GitHub Actions refresh."
+  "unmatched_teams": [
+    "Brighton and Hove Albion",
+    "Arsenal",
+    "Brentford",
+    "Everton",
+    "Hull City",
+    "Chelsea",
+    "Ipswich Town",
+    "Manchester City",
+    "Leeds United",
+    "Liverpool",
+    "Newcastle United",
+    "Fulham",
+    "Bournemouth",
+    "Sunderland",
+    "Nottingham Forest",
+    "Crystal Palace",
+    "Manchester United",
+    "Coventry City",
+    "Tottenham Hotspur",
+    "Aston Villa",
+    "Wrexham",
+    "Birmingham City",
+    "Derby County",
+    "Norwich City",
+    "St Mirren",
+    "St Johnstone",
+    "Falkirk",
+    "Kilmarnock"
+  ]
 }
