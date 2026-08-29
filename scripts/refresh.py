@@ -20,6 +20,7 @@ import sys
 import time
 import urllib.request
 import urllib.parse
+import urllib.error
 from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -39,9 +40,6 @@ DIVISIONS = {
     "SPL": {"name": "Premiership", "country": "Scotland"},
 }
 
-# Common suffix/prefix words that differ between naming conventions
-# (our workbook's names vs whatever API-Football returns), used for
-# fuzzy fallback matching.
 NOISE_WORDS = {
     "fc", "afc", "city", "united", "town", "athletic", "albion",
     "hotspur", "county", "rovers", "wanderers", "and", "hove",
@@ -54,8 +52,19 @@ def api_get(path, params):
         sys.exit(1)
     url = f"{API_BASE}{path}?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(url, headers={"x-apisports-key": API_KEY})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.load(resp)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            body = json.load(resp)
+    except urllib.error.HTTPError as e:
+        raw = e.read().decode("utf-8", errors="replace")
+        print(f"DIAG: HTTPError {e.code} on {path} params={params}: {raw}", file=sys.stderr)
+        return {"response": [], "errors": {"http_status": e.code, "body": raw}}
+    errors = body.get("errors")
+    if errors:
+        print(f"DIAG: API errors on {path} params={params}: {errors}", file=sys.stderr)
+    results_count = body.get("results")
+    print(f"DIAG: {path} params={params} -> results={results_count} errors={errors}", file=sys.stderr)
+    return body
 
 
 def normalize(name):
@@ -81,7 +90,6 @@ def save_json(path, data):
 
 
 def resolve_league_ids():
-    """Look up each division's current league id + season once, cache it."""
     cache = load_json(LEAGUE_CACHE_PATH, {})
     changed = False
     for code, info in DIVISIONS.items():
@@ -100,7 +108,7 @@ def resolve_league_ids():
             continue
         cache[code] = {"id": league["id"], "season": current["year"], "name": league["name"]}
         changed = True
-        time.sleep(1)  # be polite to the free-tier rate limit
+        time.sleep(1)
     if changed:
         save_json(LEAGUE_CACHE_PATH, cache)
     return cache
@@ -113,7 +121,7 @@ def fetch_standings(league_id, season):
         return {}
     table_groups = response[0]["league"]["standings"]
     points = {}
-    for table in table_groups:  # some leagues (rare) have multiple groups
+    for table in table_groups:
         for row in table:
             team_name = row["team"]["name"]
             points[team_name] = row["points"]
@@ -121,7 +129,6 @@ def fetch_standings(league_id, season):
 
 
 def build_match_index(live_points):
-    """Map normalized-name -> points, for fallback fuzzy matching."""
     idx = {}
     for name, pts in live_points.items():
         idx[normalize(name)] = pts
@@ -134,7 +141,6 @@ def match_points(team_name, live_points, norm_index):
     norm_name = normalize(team_name)
     if norm_name in norm_index:
         return norm_index[norm_name], "fuzzy"
-    # last resort: containment match either direction
     for live_name, pts in live_points.items():
         ln = normalize(live_name)
         if ln and (ln in norm_name or norm_name in ln):
@@ -166,7 +172,6 @@ def main():
         norm_index = build_match_index(live_points)
         pts, method = match_points(g["team"], live_points, norm_index)
         if pts is None:
-            # never silently zero it — keep last known value and flag it
             pts = prior_points.get(g["team"], 0)
             unmatched.append(g["team"])
         team_rows.append({
