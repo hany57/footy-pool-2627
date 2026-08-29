@@ -1,1 +1,17 @@
-{}
+{
+  "EPL": {
+    "id": 39,
+    "season": 2026,
+    "name": "Premier League"
+  },
+  "EFL": {
+    "id": 40,
+    "season": 2026,
+    "name": "Championship"
+  },
+  "SPL": {
+    "id": 179,
+    "season": 2026,
+    "name": "Premiership"
+  }
+}
